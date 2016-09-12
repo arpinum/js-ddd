@@ -1,0 +1,6 @@
+{
+  "extends": "arpinum/configurations/backend",
+  "rules": {
+    "new-cap": 0
+  }
+}

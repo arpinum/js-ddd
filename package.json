@@ -1,0 +1,46 @@
+{
+  "name": "@arpinum/js-engine-ddd",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint .",
+    "mocha": "ENGINE__LOG_LEVEL=alert ./node_modules/.bin/mocha lib",
+    "test": "npm run mocha; code=$?; npm run eslint; exit $((${code}+$?))",
+    "tdd": "watch --wait 1 \"npm test\" lib",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "repository": "arpinum/js-engine-ddd",
+  "keywords": [
+    "DDD",
+    "CQRS",
+    "ES",
+    "Arpinum"
+  ],
+  "author": "Arpinum",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "3.4.3",
+    "jsonwebtoken": "7.1.9",
+    "lodash": "4.15.0",
+    "node-uuid": "1.4.7",
+    "tcomb": "3.2.12",
+    "tcomb-validation": "3.2.1",
+    "winston": "2.2.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-as-promised": "5.3.0",
+    "eslint": "3.4.0",
+    "eslint-config-arpinum": "3.0.3",
+    "mocha": "3.0.2",
+    "sinon": "1.17.5",
+    "sinon-as-promised": "4.0.2",
+    "sinon-chai": "2.8.0",
+    "watch": "0.19.2"
+  }
+}
