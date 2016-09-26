@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "eslint": "./node_modules/.bin/eslint .",
-    "mocha": "ENGINE__LOG_LEVEL=alert ./node_modules/.bin/mocha lib",
+    "mocha": "ENGINE__LOG_LEVEL=off ./node_modules/.bin/mocha lib",
     "test": "npm run mocha; code=$?; npm run eslint; exit $((${code}+$?))",
     "tdd": "watch --wait 1 \"npm test\" lib",
     "preversion": "npm test",
@@ -29,8 +29,7 @@
     "lodash": "4.15.0",
     "node-uuid": "1.4.7",
     "tcomb": "3.2.12",
-    "tcomb-validation": "3.2.1",
-    "winston": "2.2.0"
+    "tcomb-validation": "3.2.1"
   },
   "devDependencies": {
     "chai": "3.5.0",
