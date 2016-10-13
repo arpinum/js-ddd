@@ -26,20 +26,20 @@
   "dependencies": {
     "bluebird": "^3.4.6",
     "jsonwebtoken": "7.1.9",
-    "lodash": "^4.16.2",
+    "lodash": "^4.16.4",
     "node-uuid": "1.4.7",
     "tcomb": "^3.2.15",
-    "tcomb-validation": "3.2.1"
+    "tcomb-validation": "^3.2.2"
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "chai-as-promised": "5.3.0",
-    "eslint": "^3.6.0",
+    "chai-as-promised": "^6.0.0",
+    "eslint": "^3.7.1",
     "eslint-config-arpinum": "3.0.3",
-    "mocha": "3.0.2",
+    "mocha": "^3.1.2",
     "sinon": "^1.17.6",
     "sinon-as-promised": "4.0.2",
     "sinon-chai": "2.8.0",
-    "watch": "0.19.2"
+    "watch": "^1.0.1"
   }
 }
