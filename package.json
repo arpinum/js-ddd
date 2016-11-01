@@ -24,7 +24,7 @@
   "author": "Arpinum",
   "license": "MIT",
   "dependencies": {
-    "lodash": "4.16.4",
+    "lodash": "4.16.6",
     "node-uuid": "1.4.7",
     "tcomb": "3.2.15",
     "tcomb-validation": "3.2.2"
@@ -32,8 +32,8 @@
   "devDependencies": {
     "chai": "3.5.0",
     "chai-as-promised": "6.0.0",
-    "eslint": "3.7.1",
-    "eslint-config-arpinum": "3.0.3",
+    "eslint": "3.9.1",
+    "eslint-config-arpinum": "3.0.4",
     "mocha": "3.1.2",
     "sinon": "1.17.6",
     "sinon-as-promised": "4.0.2",
