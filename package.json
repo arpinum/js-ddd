@@ -1,5 +1,5 @@
 {
-  "name": "@arpinum/js-engine-ddd",
+  "name": "@arpinum/ddd",
   "version": "0.0.1",
   "description": "",
   "main": "./lib/index.js",
