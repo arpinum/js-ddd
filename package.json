@@ -24,6 +24,7 @@
   "author": "Arpinum",
   "license": "MIT",
   "dependencies": {
+    "@arpinum/log": "arpinum-js-engine/js-engine-log",
     "lodash": "4.16.6",
     "node-uuid": "1.4.7",
     "tcomb": "3.2.15",
