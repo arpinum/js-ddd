@@ -1,7 +1,7 @@
 {
   "name": "@arpinum/ddd",
   "version": "0.0.1",
-  "description": "",
+  "description": "DDD framework CQRS and ES friendly",
   "main": "./lib/index.js",
   "files": [
     "lib"
@@ -24,7 +24,7 @@
   "author": "Arpinum",
   "license": "MIT",
   "dependencies": {
-    "@arpinum/log": "arpinum-js-engine/js-engine-log",
+    "@arpinum/log": "1.0.0",
     "lodash": "4.17.4",
     "node-uuid": "1.4.7",
     "tcomb": "3.2.16",
