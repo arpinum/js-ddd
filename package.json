@@ -27,18 +27,17 @@
     "@arpinum/log": "1.0.0",
     "lodash": "4.17.4",
     "node-uuid": "1.4.7",
-    "tcomb": "3.2.16",
+    "tcomb": "3.2.20",
     "tcomb-validation": "3.3.0"
   },
   "devDependencies": {
     "chai": "3.5.0",
     "chai-as-promised": "6.0.0",
-    "eslint": "3.15.0",
+    "eslint": "3.17.1",
     "eslint-config-arpinum": "3.0.4",
     "mocha": "3.2.0",
     "sinon": "1.17.7",
-    "sinon-as-promised": "4.0.2",
     "sinon-chai": "2.8.0",
-    "watch": "1.0.1"
+    "watch": "1.0.2"
   }
 }
