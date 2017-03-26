@@ -1,6 +1,6 @@
 {
   "name": "@arpinum/ddd",
-  "version": "4.0.0-beta5",
+  "version": "4.0.0-beta6",
   "description": "DDD framework CQRS and ES friendly",
   "main": "./lib/index.js",
   "files": [
