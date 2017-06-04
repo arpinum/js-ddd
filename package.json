@@ -25,6 +25,7 @@
   "license": "MIT",
   "dependencies": {
     "@arpinum/log": "1.0.0",
+    "@arpinum/promise": "0.0.2",
     "lodash": "4.17.4",
     "node-uuid": "1.4.8",
     "tcomb": "3.2.20",
