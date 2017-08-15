@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "eslint": "./node_modules/.bin/eslint .",
-    "mocha": "ENGINE__LOG_LEVEL=off ./node_modules/.bin/mocha lib",
+    "mocha": "LOG_LEVEL=off ./node_modules/.bin/mocha lib",
     "test": "npm run mocha; code=$?; npm run eslint; exit $((${code}+$?))",
     "tdd": "watch --wait 1 \"npm test\" lib",
     "preversion": "npm test",
@@ -24,19 +24,19 @@
   "author": "Arpinum",
   "license": "MIT",
   "dependencies": {
-    "@arpinum/log": "1.0.0",
-    "@arpinum/promise": "0.0.2",
+    "@arpinum/log": "3.0.0",
+    "@arpinum/promising": "0.0.7",
     "lodash": "4.17.4",
     "node-uuid": "1.4.8",
-    "tcomb": "3.2.20",
-    "tcomb-validation": "3.3.0"
+    "tcomb": "3.2.22",
+    "tcomb-validation": "3.4.0"
   },
   "devDependencies": {
-    "chai": "4.0.0",
-    "eslint": "3.19.0",
-    "eslint-config-arpinum": "3.0.4",
-    "mocha": "3.4.2",
-    "sinon": "2.3.2",
+    "chai": "4.1.1",
+    "eslint": "4.4.1",
+    "eslint-config-arpinum": "4.0.0",
+    "mocha": "3.5.0",
+    "sinon": "3.2.0",
     "watch": "1.0.2"
   }
 }
