@@ -26,7 +26,7 @@
   "dependencies": {
     "@arpinum/log": "3.0.0",
     "@arpinum/messaging": "0.0.7",
-    "@arpinum/promising": "0.0.9",
+    "@arpinum/promising": "0.0.10",
     "lodash": "4.17.4",
     "node-uuid": "1.4.8",
     "tcomb": "3.2.22",
