@@ -14,7 +14,7 @@
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
   },
-  "repository": "arpinum-js-engine/js-engine-ddd",
+  "repository": "arpinum-js-engine/js-ddd",
   "keywords": [
     "DDD",
     "CQRS",
